@@ -24,6 +24,11 @@ LINUX: To build and install code
 CUIs:
 1) cd app/consapp/<appName>/gcc
 2) make
+or 
+1) sudo apt-get install gfortran
+2) cd app/consapp
+3) make
+4) sudo make install
 
 GUIs (Qt based - Beta):
 1) cd app/qtapp
